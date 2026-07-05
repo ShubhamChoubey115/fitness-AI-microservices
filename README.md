@@ -11,14 +11,8 @@
 
 ---
 
-# 📌 Project Overview
-
-This project is a **production-style AI-powered Fitness Management Platform** developed using **Spring Boot Microservices** and **React**.
-
-The application demonstrates how modern enterprise systems are built using independently deployable services, centralized configuration, service discovery, API Gateway, secure authentication, asynchronous messaging, and AI-powered recommendations.
-
-The goal of this project was to gain hands-on experience with real-world backend architecture rather than building a simple CRUD application.
-
+# 📌 Project Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b0a09997-0446-46d5-ad34-1396a50ab452" />
 ---
 
 # 🚀 Features
