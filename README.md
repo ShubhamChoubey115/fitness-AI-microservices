@@ -1,4 +1,4 @@
-# 🏋️ AI-Powered Fitness Application | Spring Boot Microservices + React
+# 🏋️ AI-Powered Health Application | Spring Boot Microservices + React
 
 > A production-inspired Full Stack AI Fitness Platform built using Spring Boot Microservices architecture with secure authentication, asynchronous messaging, AI integration, and cloud-native components.
 
@@ -9,11 +9,11 @@
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-EventDriven-yellow)
 ![Keycloak](https://img.shields.io/badge/Security-Keycloak-purple)
 
----
+
 
 # 📌 Project Architecture
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b0a09997-0446-46d5-ad34-1396a50ab452" />
----
+
 
 # 🎯 Learning Outcomes
 
@@ -31,8 +31,6 @@ This project helped me gain practical experience in
 - React + Spring Boot Integration
 - REST API Design
 - Multi Database Architecture
-
----
 
 # 📈 Future Improvements
 
