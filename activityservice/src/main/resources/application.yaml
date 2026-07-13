@@ -1,4 +1,4 @@
 spring:
   application:
-    name: activityservice
+    name: activity-service
 

@@ -14,6 +14,8 @@
 # 📌 Project Architecture
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b0a09997-0446-46d5-ad34-1396a50ab452" />
 
+# Outcome Screenshots
+<img width="1912" height="960" alt="Screenshot 2026-07-11 134519" src="https://github.com/user-attachments/assets/bcf938a8-c660-4e41-8432-82e2fc49da0c" />
 
 # 🎯 Learning Outcomes
 
