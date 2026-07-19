@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class UserService {
 
+    //if we use @requiredargumetsconstructor then all final fields will be autowired
     UserRepository repository;
 
     public UserResponse registerNewUser(RegisterRequest request) {
