@@ -1,27 +1,29 @@
 spring:
   application:
     name: api-gateway
-  cloud:
-    gateway:
-      server:
-        webflux:
-          routes:
-            - id: user-service
-              uri: lb://USER-SERVICE
-              predicates:
-                - Path=/api/users/**
-            - id: activity-service
-              uri: lb://ACTIVITY-SERVICE
-              predicates:
-                - Path=/api/activities/**
-            - id: ai-service
-              uri: lb://AI-SERVICE
-              predicates:
-                - Path=/api/recommendations/**
-
-
-server:
-  port: 8080
+  config:
+    import: optional:configserver:http://localhost:8888
+#  cloud:
+#    gateway:
+#      server:
+#        webflux:
+#          routes:
+#            - id: user-service
+#              uri: lb://USER-SERVICE
+#              predicates:
+#                - Path=/api/users/**
+#            - id: activity-service
+#              uri: lb://ACTIVITY-SERVICE
+#              predicates:
+#                - Path=/api/activities/**
+#            - id: ai-service
+#              uri: lb://AI-SERVICE
+#              predicates:
+#                - Path=/api/recommendations/**
+#
+#
+#server:
+#  port: 8080
 
 #logging:
 #  level:
@@ -36,9 +38,11 @@ server:
 #        include: "*"
 
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+
+#command to start keycloak on docker:  docker run -p 127.0.0.1:8181:8080 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:26.7.0 start-dev
