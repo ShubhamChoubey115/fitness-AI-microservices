@@ -18,6 +18,7 @@ public class UserService {
     UserRepository repository;
 
     public UserResponse registerNewUser(RegisterRequest request) {
+        //check if user exists or not
         if (repository.existsByEmail(request.getEmail())) {
             User existingUser = repository.findByEmail(request.getEmail());
             UserResponse userResponse = new UserResponse();
